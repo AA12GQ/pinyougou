@@ -1,0 +1,235 @@
+/* 版心 */
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.style_red{
+    color: rgb(200,22,35);
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 快捷导航模块 */
+.shortcut{
+    height: 31px;
+    line-height: 31px;
+    background-color: rgb(241,241,241);
+
+}
+.shortcut ul li{
+    float: left;
+}
+.shortcut .fr ul li:nth-child(even){
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 14px 0;
+}
+.shortcut .fr ul li i{
+    color:rgb(174,174,174);
+    margin-left: 10px;
+}
+/* 头部模块样式 */
+.header {
+    position:relative;
+    height:105px;
+    /* background-color: #bfa; */
+}
+.logo a{
+    position: absolute;
+    top: 27px;
+    width: 175px;
+    height: 56px;
+    /* background-color: pink; */
+    background:url(../images/logo.png)no-repeat;
+    font-size: 0;
+    
+}
+.search{
+    position: absolute;
+    top:25px;
+    left: 346px;
+    width: 538px;
+    height: 36px;
+    border:2px solid #b1191a;
+}
+.search input{
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+.search button{
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: rgb(177,25,26);
+}
+/* 热词 */
+.search_Hotwords{
+    position: absolute;
+    top: 70px;
+    left: 346px;
+}
+.search_Hotwords a{
+    margin-left:13px;
+}
+/* 购物车 */
+.shopping_car{
+    position: absolute;
+    right: 64px;
+    top: 25px;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    background-color: rgb(247,247,247);
+    border: 1px solid rgb(223,223,223);
+    text-align: center;
+}
+.shopping_car .count{
+    position: absolute;
+    top:-5px;
+    left:105px;
+    height:14px;
+    line-height: 14px;
+    color:#fff;
+    background-color:red;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+}
+/* nav模块样式 */
+.nav{
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+.dropdown{
+    float: left;
+    width: 209px;
+    height: 45px;
+    background-color: rgb(177,25,26);
+}
+.dropdown .dt{
+    width: 100%;
+    height: 100%;
+    line-height: 45px;
+    color: #fff;
+    text-align: center;
+    font-size:15px;
+}
+.dropdown .dd{
+    /* display:none; */
+    width: 210px;
+    height: 465px;
+    background-color: rgb(200,22,35);
+    margin-top: 2px;
+}
+.dropdown .dd li{
+    position:relative;
+    height: 31px;
+    line-height: 31px;
+    margin-left: 2px;
+    padding-left: 10px;
+}
+.dropdown .dd li i{
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    color: #fff;
+}
+.dropdown .dd li:hover{
+    background-color: #fff;
+}
+.dropdown .dd li:hover  a{
+    color:red;
+}
+.dropdown .dd li a{
+    font-size: 14px;
+    color: #fff;
+}
+.navitems{
+    float: left;
+    /* background-color:pink; */
+}
+.navitems ul li{
+    float: left;
+}
+.navitems ul li a{
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    padding:0 25px;
+}
+/* 底部模块样式 */
+.footer{
+    height: 415px;
+    background-color: #f5f5f5;
+}
+.mod_service{
+    padding-top: 30px;
+    height: 108px;
+    border-bottom: 1px solid #ccc;
+}
+.mod_service ul li{
+    float: left;
+    width: 300px;
+    height: 50px;
+    /* background-color: pink; */
+    padding-left: 35px;
+}
+.mod_service ul li h5{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background:url(../images/icons.png)no-repeat -252px -3px;
+    margin-right: 5px;
+}
+.mod_text h4{
+    font-size: 14px;
+}
+.mod_text p{
+    font-size: 12px;
+}
+.mod_help {
+	height: 187px;
+	border-bottom: 1px solid #ccc;
+}
+.mod_help_item {
+	float: left;
+	width: 200px;
+	padding: 20px 0 0 50px;
+}
+.mod_help_item dt {
+	height: 25px;
+	font-size: 16px;
+}
+.mod_help_item dd {
+	height: 22px;
+}
+.mod_help_app dt,
+.mod_help_app p {
+	padding-left: 15px;
+}
+.mod_help_app img {
+    width: 90px;
+    height: 90px;
+	margin: 7px 0;
+}
+.mod_copyright {
+	text-align: center;
+}
+.mod_copyright_links {
+	margin: 20px 0 15px 0;
+}
+.mod_copyright_info {
+	line-height: 18px;
+}
+.mod_copyright{
+    padding-top: 20px;
+}
+.links{
+    margin-bottom: 15px;
+}
